@@ -1,10 +1,10 @@
 {
   "name": "gearbot-store",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "./server/app.js",
   "scripts": {
     "dev": "NODE_ENV=development node server/app.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "build": "npm install && npm install --prefix client && npm install -g vite --prefix client && npm run build --prefix client",
     "start": "NODE_ENV=production node server/app.js"
   },
   "type": "module",
