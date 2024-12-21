@@ -27,7 +27,7 @@ export default function NavBar() {
           gradientTo="cyan.400"
           bgClip={'text'}
         >
-          <Link to={'/'}>GearBot Store 🛒</Link>
+          <Link to={'/'}>GearBot 🛒</Link>
         </Text>
         <HStack spacing={2} alignItems={'center'}>
           <Link to={'/create'}>

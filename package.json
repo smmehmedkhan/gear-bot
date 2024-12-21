@@ -1,5 +1,5 @@
 {
-  "name": "gearbot-store",
+  "name": "gearbot",
   "version": "1.0.0",
   "main": "server/app.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "Mehmed Khan",
   "license": "ISC",
-  "description": "This is a store name Gearbot",
+  "description": "This is a store webiste made by Mehmed Khan for his friend's name Gearbot",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
