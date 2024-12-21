@@ -1,7 +1,7 @@
 {
   "name": "gearbot-store",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "NODE_ENV=development node server/app.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client",
@@ -9,9 +9,9 @@
   },
   "type": "module",
   "keywords": [],
-  "author": "",
+  "author": "Mehmed Khan",
   "license": "ISC",
-  "description": "",
+  "description": "This is a store name Gearbot",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
@@ -19,8 +19,8 @@
     "zustand": "^5.0.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
     "eslint": "^9.17.0",
+    "@eslint/js": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.13.0",
