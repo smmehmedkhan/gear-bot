@@ -2,12 +2,14 @@ import express from 'express';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db.js';
 import productsRoute from './routers/products.router.js';
+import cors from 'cors';
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(express.json()); // Allows us to accept JSON data in the req.body.
 app.use(express.urlencoded({ extended: true }));
 app.use('/api/products', productsRoute);
