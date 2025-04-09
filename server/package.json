@@ -1,0 +1,30 @@
+{
+  "name": "gearbot-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "keywords": [],
+  "author": "Mehmed Khan",
+  "license": "ISC",
+  "description": "GearBot-api is a CRUD operational api to manage products for gearbot web app",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.1",
+    "dotenv": "^16.4.7",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.13.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
+}
