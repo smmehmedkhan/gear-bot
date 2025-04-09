@@ -9,7 +9,7 @@
   "description": "GearBot-api is a CRUD operational api to manage products for gearbot web app",
   "scripts": {
     "dev": "nodemon app.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "build": "npm install",
     "start": "node app.js"
   },
   "dependencies": {
