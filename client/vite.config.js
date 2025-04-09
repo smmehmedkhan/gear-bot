@@ -17,7 +17,7 @@ export default defineConfig({
     proxy: {
       // Proxy for local development only
       "/api": {
-        target: "https://gearbot-api.onrender.com/",
+        target: "https://gearbot-api.onrender.com",
         changeOrigin: true, // Ensures the origin header is updated to match the target
         secure: true, // Set to false if you’re using an HTTP target
       },

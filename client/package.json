@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
+    "dev": "pnpx vite",
+    "build": "pnpx vite build",
     "lint": "eslint .",
-    "preview": "npx vite preview"
+    "preview": "pnpx vite preview"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
